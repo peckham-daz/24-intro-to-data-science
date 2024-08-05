@@ -13,7 +13,7 @@ weeks 6-10
 #### Week 7:
 - Intro to Python libraries: requests, urllib, Beautiful Soup,
 - web scraping and crawling,
-- basic numpy and pandas operations witht he scraped data,
+- basic numpy and pandas operations with the scraped data,
 - saving and reading CSV, XLSX, JSON files.<br><br>
 #### Week 8:
 - Data analysis and visualisation with pandas, numpy and matplotlib.
