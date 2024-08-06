@@ -69,8 +69,9 @@ how to import libraries:
 import csv
 import json
 ```
-
 **Tip:** Start by figuring out how to read a .csv file and extract a column from it using a for loop and indexing.
+
+for loops in Python: https://www.w3schools.com/python/python_for_loops.asp
 
 https://github.com/MuseumofModernArt/collection
 
