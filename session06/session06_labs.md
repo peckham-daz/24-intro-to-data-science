@@ -2,11 +2,14 @@
 
 ### Checklist before you start:
 1. Create a folder on your disk for all your coding projects. You may want to avoid spaces in the folder path for easier navigation. Make sure you remember where it is.<br><br>
-2. Download the Module 2: Introduction to Data Science repository to that folder and make sure it's connected to GitHub. You can do it using the "Clone" function in VSCode. Please do not edit or add any files to this folder.<br>
+
+2. Make sure you installed Visual Studio Code, git, and Python 3.11. Make a virtual Python environment in the repository folder and add it to .gitignore.<br><br>
+3Download the Module 2: Introduction to Data Science repository to that folder and make sure it's connected to GitHub. You can do it using the "Clone" function in VSCode. Please do not edit or add any files to this folder.<br>
 https://github.com/peckham-daz/24-intro-to-data-science<br><br>
+
 3. Create your own GitHub repository for this module on GitHub and set it up in your coding projects folder using the "Clone" function in VSCode.<br><br>
-4. Make sure you installed Visual Studio Code, git, and Python 3.11. Make a virtual Python environment in the repository folder and add it to .gitignore.<br><br>
-5. Create a text file on your desktop and paste the commands that you need to run the virtual environment.<br><br>
+
+4. Create a text file on your desktop and paste the commands that you need to run the virtual environment.<br><br>
 
 ### Task 1
 #### creating a .txt file - in the console
@@ -34,6 +37,7 @@ https://www.w3schools.com/python/python_file_handling.asp
 #### basic string operations - create a .py file you can run from the console
 Create a Python script which lists of 10 most popular words in "The Story of the Fierce Bad Rabbit". You may want to remove punctuation before counting the words. Save the information in a readable format to a new .txt file and publish on your GitHub.
 
+how to read a file: https://www.w3schools.com/python/ref_file_read.asp<br>
 how to split text: https://www.w3schools.com/python/ref_string_split.asp<br>
 how to remove punctuation: https://www.geeksforgeeks.org/python-remove-punctuation-from-string/<br>
 word counting: https://www.w3schools.com/python/ref_string_count.asp
@@ -111,6 +115,8 @@ dict_to_save = {
 
 ### Task 6 - homework
 For the next class, find a dataset with a table in .csv, .json or .tsv format to explore. Try to select something you find interesting. You can look on Kaggle, museum and library websites, statistics office websites, etc. Be prepared to describe your dataset in a few sentences to your group.
+
+**Example data sources:**
 
 https://www.kaggle.com/datasets
 
