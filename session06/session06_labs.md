@@ -1,15 +1,20 @@
 ## Session 06 labs
 
 ### Checklist before you start:
-1. Create a folder on your disk for all your coding projects. You may want to avoid spaces in the folder path for easier navigation. Make sure you remember where it is.<br><br>
 
-2. Make sure you installed Visual Studio Code, git, and Python 3.11. Make a virtual Python environment in the repository folder and add it to .gitignore.<br><br>
-3Download the Module 2: Introduction to Data Science repository to that folder and make sure it's connected to GitHub. You can do it using the "Clone" function in VSCode. Please do not edit or add any files to this folder.<br>
+1. Make sure you installed Visual Studio Code, git, and Python 3.11. <br><br>
+
+2. Create a folder on your disk for all your coding projects. You may want to avoid spaces in the folder path for easier navigation. Make sure you remember where it is.<br><br>
+
+3. Download the Module 2: Introduction to Data Science repository to that folder and make sure it's connected to GitHub. You can do it using the "Clone" function in VSCode. Please do not edit or add any files to this folder.<br>
 https://github.com/peckham-daz/24-intro-to-data-science<br><br>
 
-3. Create your own GitHub repository for this module on GitHub and set it up in your coding projects folder using the "Clone" function in VSCode.<br><br>
+4. Create your own GitHub repository for this module on GitHub and set it up in your coding projects folder using the "Clone" function in VSCode.<br><br>
 
-4. Create a text file on your desktop and paste the commands that you need to run the virtual environment.<br><br>
+5. Make a virtual Python environment in your learning repository folder and add it to .gitignore. .gitignore is a file containing list of files and directories which should not be tracked by git.<br><br>
+
+6. Create a text file on your desktop and paste the commands that you need to run the virtual environment.<br><br>
+
 
 ### Task 1
 #### creating a .txt file - in the console
