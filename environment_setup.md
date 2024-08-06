@@ -45,7 +45,7 @@ https://www.python.org/downloads/release/python-3119/ <br><br>
 **Windows**:<br>
 ``daz-venv\Scripts\activate.bat``<br><br>
 **Mac OS / Ubuntu**: <br>
-``source daz-venv\bin\activate``<br><br>
+``source .\daz-venv\bin\activate``<br><br>
 5. Install the libraries listed in the ``requirements.txt``file:<br>
 ``pip install -r requirements.txt``<br>
 **note:** the "-r" option indicates that we're using a requirements file and not listing libraries
