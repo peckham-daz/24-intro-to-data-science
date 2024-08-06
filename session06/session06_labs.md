@@ -37,8 +37,22 @@ my_text = 'My name is Marysia. I live in London. My hobbies are crocheting, hiki
 Now, save the created text to a new .txt file:
 https://www.w3schools.com/python/python_file_handling.asp
 
-
 ### Task 2
+#### Write a piece of code which checks if a number even or odd.
+you may want to have a look at the modulus operator:<br>
+https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/<br>
+and conditional statements:<br>
+https://www.w3schools.com/python/python_conditions.asp<br>
+
+Can you make it into a function?
+Here's Python function syntax:
+https://www.w3schools.com/python/python_functions.asp
+
+Can you write the code within the function as a single line?
+TIP: think of casting Boolean values to integers adn using them for list indexing.
+
+
+### Task 3
 #### basic string operations - create a .py file you can run from the console
 Create a Python script which lists of 10 most popular words in "The Story of the Fierce Bad Rabbit". You may want to remove punctuation before counting the words. Save the information in a readable format to a new .txt file and publish on your GitHub.
 
@@ -48,18 +62,18 @@ how to remove punctuation: https://www.geeksforgeeks.org/python-remove-punctuati
 word counting: https://www.w3schools.com/python/ref_string_count.asp
 
 
-### Task 3
+### Task 4
 #### editing text - create a .py file you can run from the console
 Try to edit the story by replacing some of the most popular words. Save it to a new file and publish on your GitHub. Share the story in your groups.
 
 
-### Task 4
+### Task 5
 #### the Python challenge - in a Jupyter notebook
 Complete at least the first 5 steps of the Python challenge. Save the solutions in a Jupyter notebook and publish it to your GitHub.<br>
 http://www.pythonchallenge.com/
 
 
-### Task 5 - advanced
+### Task 6 - advanced
 #### the MoMA dataset - work on it in a Jupyter notebook
 **Note:** there are libraries that do parts fo these tasks for you, which we will learn next week. Today, please try to analyse this dataset using the built-in libraries and functions (for loops, csv library, json library).
 
