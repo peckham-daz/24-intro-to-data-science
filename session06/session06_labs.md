@@ -86,8 +86,12 @@ import json
 **Tip:** Start by figuring out how to read a .csv file and extract a column from it using a for loop and indexing.
 
 for loops in Python: https://www.w3schools.com/python/python_for_loops.asp
+reading csv files: https://www.geeksforgeeks.org/reading-csv-files-in-python/
 
-https://github.com/MuseumofModernArt/collection
+#### Here is the file for this exercise:<br>
+https://github.com/peckham-daz/24-intro-to-data-science/blob/main/session06/moma_artworks_1000.csv
+
+It is a fragment of this MoMa dataset: https://github.com/MuseumofModernArt/collection
 
 I suggest you do this exercise in a Jupyter notebook.
 
@@ -133,7 +137,7 @@ dict_to_save = {
 }
 ```
 
-### Task 6 - homework
+### Task 7 - homework
 For the next class, find a dataset with a table in .csv, .json or .tsv format to explore. Try to select something you find interesting. You can look on Kaggle, museum and library websites, statistics office websites, etc. Be prepared to describe your dataset in a few sentences to your group.
 
 **Example data sources:**
