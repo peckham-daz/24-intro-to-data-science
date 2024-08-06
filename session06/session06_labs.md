@@ -9,23 +9,59 @@ https://github.com/peckham-daz/24-intro-to-data-science<br><br>
 5. Create a text file on your desktop and paste the commands that you need to run the virtual environment.<br><br>
 
 ### Task 1
-#### creating a JSON file - in the console
-Using Python from the console, create and save a json file with your name, age, and a list of hobbies.
+#### creating a .txt file - in the console
+Using Python from the console, create and save a .txt file with your name, city, and a list of hobbies. You can use the code snippet below as a starter.
+
+https://www.w3schools.com/python/ref_string_join.asp
+https://www.pythonmorsels.com/slicing/
+https://www.w3schools.com/python/python_string_formatting.asp
+
+```
+my_name = 'Name'
+city = 'CityName'
+hobbies = ['hobby_1', 'hobby_2', 'hobby_3']
+
+# transform the text to match the pattern below. Note the 'and' added before the last hobby. You may have a look at list slicing to achieve that. Make sure it works with any number of hobbies.
+
+my_text = 'My name is Marysia. I live in London. My hobbies are crocheting, hiking, music and computational art.'
+```
+
+Now, save the created text to a new .txt file:
+https://www.w3schools.com/python/python_file_handling.asp
+
 
 ### Task 2
 #### basic string operations - create a .py file you can run from the console
 Create a Python script which lists of 10 most popular words in "The Story of the Fierce Bad Rabbit". You may want to remove punctuation before counting the words. Save the information in a readable format to a new .txt file and publish on your GitHub.
 
 how to split text: https://www.w3schools.com/python/ref_string_split.asp<br>
-how to remove punctuation: https://www.geeksforgeeks.org/python-remove-punctuation-from-string/
+how to remove punctuation: https://www.geeksforgeeks.org/python-remove-punctuation-from-string/<br>
+word counting: https://www.w3schools.com/python/ref_string_count.asp
+
 
 ### Task 3
 #### editing text - create a .py file you can run from the console
 Try to edit the story by replacing some of the most popular words. Save it to a new file and publish on your GitHub. Share the story in your groups.
 
+
 ### Task 4
+#### the Python challenge - in a Jupyter notebook
+Complete at least the first 5 steps of the Python challenge. Save the solutions in a Jupyter notebook and publish it to your GitHub.<br>
+http://www.pythonchallenge.com/
+
+
+### Task 5 - advanced
 #### the MoMA dataset - work on it in a Jupyter notebook
-Note: there are libraries that do parts fo these tasks for you, which we will learn next week. Today, please try to analyse this dataset using the built-in libraries and functions (for loops, csv library).
+**Note:** there are libraries that do parts fo these tasks for you, which we will learn next week. Today, please try to analyse this dataset using the built-in libraries and functions (for loops, csv library, json library).
+
+how to import libraries:
+```
+# typically, imports would be listed in alphabetical order
+import csv
+import json
+```
+
+**Tip:** Start by figuring out how to read a .csv file and extract a column from it using a for loop and indexing.
 
 https://github.com/MuseumofModernArt/collection
 
@@ -33,17 +69,54 @@ I suggest you do this exercise in a Jupyter notebook.
 
 a. Find 5 artists with the most artworks in the dataset.
 
-b. Find the artworks with the largest and smallest volumes (height x depth x length)
+b. Find the artworks with the largest and smallest volumes (height * depth * length). Express the final number in meters.
 
 c. What is the most popular word in the title?
 
 d. What materials only appear in the dataset once?
 
-### Task 5
-#### the Python challenge - in a Jupyter notebook
-Complete at least the first 5 steps of the Python challenge. Save the solutions in a Jupyter notebook and publish it to your GitHub.
-http://www.pythonchallenge.com/
+e. Write all the information in a dictionary and save it to a .json file.
+
+https://www.w3schools.in/python/json
+
+```
+# create a dictionary to match the pattern below and save it to a .json file
+
+dict_to_save = {
+    'most_pupular_artists': [
+        'Artist 1',
+        'Artist 2',
+        'Artist 3',
+        'Artist 4',
+        'Artist 5',
+    ],
+    'largest_volume_artwork: {
+        'title': 'Artwork title',
+        'artist': 'Artist Name',
+        'volume_m3': volume_largest,
+    },
+    'smallest_volume_artwork': {
+        'title': 'Artwork title',
+        'artist': 'Artist Name',
+        'volume_m3': volume_smallest,
+    },
+    'most_popular_title_word': 'word',
+    'materials_only_used_once': [
+        'Material 1',
+        'Material 2',
+        'Material 3'...
+    ],
+}
+```
 
 ### Task 6 - homework
-For the next class, find a dataset with a table in .csv, .json or .tsv format to explore. You can look on Kaggle, museum and library websites, statistics office websites, etc.
+For the next class, find a dataset with a table in .csv, .json or .tsv format to explore. Try to select something you find interesting. You can look on Kaggle, museum and library websites, statistics office websites, etc. Be prepared to describe your dataset in a few sentences to your group.
+
+https://www.kaggle.com/datasets
+
+https://www.ons.gov.uk/
+
+https://www.nga.gov/open-access-images/open-data.html
+
+https://www.data.gov.uk/search?filters%5Bpublisher%5D=Tate
 

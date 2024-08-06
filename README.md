@@ -8,13 +8,13 @@ weeks 6-10
 - VSCode setup,
 - Intro to git,
 - Intro to data types,
-- Saving and reading files,
-- Python challenge (homework) - or custom exercises.<br><br>
+- reading and writing .txt, .json and .csv files,
+- Python challenge.<br><br>
 #### Week 7:
 - Intro to Python libraries: requests, urllib, Beautiful Soup,
 - web scraping and crawling,
 - basic numpy and pandas operations with the scraped data,
-- saving and reading CSV, XLSX, JSON files.<br><br>
+- reading and writing CSV, XLSX, JSON files with pandas.<br><br>
 #### Week 8:
 - Data analysis and visualisation with pandas, numpy and matplotlib.
 - Git recap,
