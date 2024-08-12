@@ -22,7 +22,9 @@ Check W3 schools for guidance on any of these:  (https://www.w3schools.com/pytho
 ## TASK 2:
 
 Choose a .cvs file to work with. There are two in the repo. The demo file from W3 schools contains data around exercise stats. There is also a file containing the collection of a US art gallery.
+
 See what data is in the file and think how you might want to view it
+
 Clean the data, you can find how to do this here: https://www.w3schools.com/python/pandas/pandas_cleaning.asp
 Find interesting correlations in the data. Eg. pulse to calorie burn, year to dimensions. Info on this process here: (https://www.w3schools.com/python/pandas/pandas_correlations.asp)
 
