@@ -54,11 +54,16 @@ TIP: think of casting Boolean values to integers adn using them for list indexin
 
 ### Task 3
 #### basic string operations - create a .py file you can run from the console
-Create a Python script which lists of 10 most popular words in "The Story of the Fierce Bad Rabbit". You may want to remove punctuation before counting the words. Save the information in a readable format to a new .txt file and publish on your GitHub.
+Create a Python script which lists of 10 most popular words in "The Story of the Fierce Bad Rabbit". Link to the text file:<br>
+https://github.com/peckham-daz/24-intro-to-data-science/blob/main/session06/beatrix_potter_the_story_of_a_fierce_bad_rabbit.txt<br><br>
+
+You may want to remove punctuation before counting the words. Save the information in a readable format to a new .txt file and publish on your GitHub.
+
 
 how to read a file: https://www.w3schools.com/python/ref_file_read.asp<br>
 how to split text: https://www.w3schools.com/python/ref_string_split.asp<br>
 how to remove punctuation: https://www.geeksforgeeks.org/python-remove-punctuation-from-string/<br>
+how to change words t
 word counting: https://www.w3schools.com/python/ref_string_count.asp
 
 
