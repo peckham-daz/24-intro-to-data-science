@@ -1,3 +1,6 @@
 jupyter
 beautifulsoup4
+matplotlib
+numpy
+pandas
 pillow
